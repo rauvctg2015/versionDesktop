@@ -1,0 +1,17 @@
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\bin\Debug\testDevApp.exe
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\bin\Debug\testDevApp.pdb
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\obj\x86\Debug\testDevApp.Form1.resources
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\obj\x86\Debug\testDevApp.Properties.Resources.resources
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\obj\x86\Debug\testDevApp.csproj.GenerateResource.Cache
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\obj\x86\Debug\testDevApp.exe
+c:\users\reynel.useche\documents\visual studio 2010\Projects\testDevApp\testDevApp\obj\x86\Debug\testDevApp.pdb
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.exe
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.pdb
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\bin\Debug\testDevApp.exe
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\bin\Debug\testDevApp.pdb
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.csprojResolveAssemblyReference.cache
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.Form1.resources
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.Properties.Resources.resources
+C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.csproj.GenerateResource.Cache
+L:\Pruebas\2\testDevApp\testDevApp\obj\x86\Debug\testDevApp.exe
+L:\Pruebas\2\testDevApp\testDevApp\obj\x86\Debug\testDevApp.pdb
