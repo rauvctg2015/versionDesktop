@@ -15,10 +15,3 @@ C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevAp
 C:\Users\rauvctg\Documents\Pruebas\testDevApp\testDevApp\obj\x86\Debug\testDevApp.csproj.GenerateResource.Cache
 L:\Pruebas\2\testDevApp\testDevApp\obj\x86\Debug\testDevApp.exe
 L:\Pruebas\2\testDevApp\testDevApp\obj\x86\Debug\testDevApp.pdb
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\obj\x86\Debug\testDevApp.exe
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\obj\x86\Debug\testDevApp.pdb
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\bin\Debug\testDevApp.exe
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\bin\Debug\testDevApp.pdb
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\obj\x86\Debug\testDevApp.Form1.resources
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\obj\x86\Debug\testDevApp.Properties.Resources.resources
-J:\Pruebas\versionDesktop\testDevApp\testDevApp\obj\x86\Debug\testDevApp.csproj.GenerateResource.Cache
