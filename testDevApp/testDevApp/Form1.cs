@@ -20,7 +20,7 @@ namespace testDevApp
         private void btnSearch_Click(object sender, EventArgs e)
         {
             List<string> resulList = new List<string>();
-            string resulString = "1,6,11" + Environment.NewLine + Environment.NewLine + "2,7,12" + Environment.NewLine + Environment.NewLine + "3,8,13" + Environment.NewLine + Environment.NewLine + "4,9,14";
+            
 
 
             DialogResult result = openFileDialog1.ShowDialog();
@@ -28,14 +28,70 @@ namespace testDevApp
             {
                 try
                 {
-                    MessageBox.Show(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location));
-                    System.IO.File.WriteAllText(System.IO.Path.GetFullPath(openFileDialog1.FileName), string.Empty);
-                    System.IO.File.WriteAllText(System.IO.Path.GetFullPath(openFileDialog1.FileName), resulString);
+                    
                     this.richTextBox1.Visible = true;
                     string content = System.IO.File.ReadAllText(openFileDialog1.FileName);
-                    richTextBox1.Text = "File Content" + Environment.NewLine + Environment.NewLine + content;
-                    System.IO.File.Replace(openFileDialog1.FileName, System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)+"\\result.txt", null);
-                    MessageBox.Show("File changed: " + Environment.NewLine + openFileDialog1.FileName);
+                    List<string> array = new List<string>();
+
+                    for (int i = 0; i < content.Length; i++)
+                    {
+                        if (content[i].ToString() != ",")
+                        {
+                            int intvariable;
+                            if (Int32.TryParse(content[i].ToString(), out intvariable) && i + 1 < content.Length)
+                            {
+                                if (Int32.TryParse(content[i + 1].ToString(), out intvariable))
+                                {
+                                    array.Add(content[i].ToString() + content[i + 1].ToString());
+                                    i = i + 1;
+                                }
+                                else
+                                {
+                                    array.Add(content[i].ToString());
+                                }
+                            }
+                        }
+
+                    }
+
+                    List<string> arrayFiltrado = new List<string>();
+                    foreach (var item in array)
+                    {
+                        if (Convert.ToInt32(item) % 5 != 0)
+                        {
+                            arrayFiltrado.Add(item);
+                        }
+                    }
+
+                    if (array.Count >= 1)
+                        {
+                            richTextBox1.Text = "Transpose: " + "\n\r";
+                            foreach (var item in arrayFiltrado)
+                            {
+                               int intVariable;
+                               if (Int32.TryParse(item, out intVariable))
+                               {
+
+                                    int firstNumber, secondNumber;
+                                    firstNumber = intVariable +5;
+                                    secondNumber = intVariable + 10;
+                                    if (this.richTextBox1.Text.Contains(item.Last()))
+                                    {
+                                        break;
+                                    }
+                                    if(Convert.ToInt32(item) < firstNumber && Convert.ToInt32(item) < secondNumber)
+                                    {
+                                        this.richTextBox1.Text += intVariable + ", " + (intVariable + 5) + ", " + (intVariable + 10); this.richTextBox1.Text += "\n\r";
+                                    }
+                               }
+                         
+                            }
+                        }
+                    else
+                    {
+                        MessageBox.Show("This file is Empty !!");
+
+                    }
                 }
                 catch (Exception ex)
                 {
